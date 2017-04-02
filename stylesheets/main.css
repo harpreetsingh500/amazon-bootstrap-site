@@ -1,0 +1,265 @@
+@import url('reset.css');
+@import url('bootstrap.min.css');
+
+body {
+  color: white;
+  font: 16px arial;
+}
+
+/* All the css below this line can be used in different pages. */
+
+.add-to-cart-button {
+  display: block;
+  padding: 6px 40px;
+  margin: 0 auto 8px;
+  color: black;
+}
+
+.add-to-cart-button:hover {
+  color: black;
+}
+
+.review-count:before {
+  content: '';
+  display: inline-block;
+  width: 209px;
+  background: url(https://cdn5.esetstatic.com/eset/US/misc/images/icons/star-rating.png);
+  vertical-align: middle;
+  height: 41px;
+}
+
+select.form-control {
+  display: inline-block;
+  width: auto;
+}
+
+/* All the css below this line is used on all the pages. */
+
+header {
+  background: rgb(35, 47, 62);
+  padding: 20px 10px 10px;
+}
+
+header > img {
+  width: 10%;
+}
+
+header > p {
+  width: 10%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header > p i {
+  color: blue;
+}
+
+header > form {
+  display: inline-block;
+  width: 60%;
+  margin: 0 2%;
+  vertical-align: middle;
+}
+
+header > form .input-group-addon {
+  cursor: pointer;
+  background: #febd69;
+  border: none;
+}
+
+header > form .input-group-addon:hover {
+  background: #f3a847;
+}
+
+header > nav ul {
+  margin-left: 12.5%;
+}
+
+header > nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer {
+  background: rgb(35, 47, 62);
+  padding: 20px;
+}
+
+footer nav {
+  margin-left: 12.5%;
+}
+
+footer nav .nav {
+  display: inline-block;
+  margin-right: 25px;
+  vertical-align: top;
+}
+
+footer .nav li a {
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.link {
+  color: #ccc;
+}
+
+.nav > li > .link:hover {
+  color: #ccc;
+  background: none;
+  text-decoration: underline;
+}
+
+/* The css below this line is used on the home page in the main section. */
+
+.banner img {
+  width: 100%;
+}
+
+#home-page-main-content {
+  text-align: center;
+}
+
+.home-page-content-container {
+  color: black;
+  text-align: left;
+  display: inline-block;
+  background: rgba(19,19,4,.04);
+  padding: 15px;
+  box-sizing: border-box;
+  width: 20%;
+  margin: 2%;
+}
+
+.home-page-content-container img {
+  display: block;
+  margin: 0 auto;
+}
+
+.home-page-content-container a {
+  display: block;
+  border-top: 1px solid gray;
+  margin-top: 10px;
+}
+
+/* The css below this line is used for products listed on the product listings page. */
+
+#list-of-products {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+#list-of-products li {
+  display: inline-block;
+  color: black;
+  width: 24%;
+  border-bottom: 1px solid gray;
+  margin: 0 .5% 15px;
+  float: left;
+}
+
+#list-of-products img {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#list-of-products img + a {
+  margin-bottom: 10px;
+  display: block;
+}
+
+#list-of-products p {
+  margin-top: 10px;
+}
+
+/* All the css below this line is used for products on the product page. */
+
+#product-page main .container-fluid {
+  padding: 15px;
+}
+
+#product-page main .row {
+  margin-bottom: 40px;
+}
+
+#product-page main {
+  color: black;
+}
+
+.product-info h4,
+.product-info a,
+.product-info p,
+.product-info li {
+  margin: 8px;
+}
+
+.product-info a {
+  display: block;
+}
+
+.product-info li {
+  list-style: disc;
+}
+
+#product-page main form {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.big-image {
+  max-height: 450px;
+}
+
+.extra-product-info {
+  padding: 0 15px;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* The css below this line is for the checkout page. */
+
+#checkout-page main {
+  color: black;
+}
+
+#checkout-page main .container-fluid {
+  padding: 15px;
+}
+
+.checkout-list-of-products li {
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.checkout-list-of-products h4,
+.checkout-list-of-products p,
+.checkout-list-of-products .form-group {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.checkout-list-of-products h4,
+.checkout-list-of-products p {
+  margin-left: 110px;
+  margin-top: 6px;
+}
+
+.checkout-list-of-products .form-group {
+  float: right;
+}
+
+.checkout-form {
+  border: 1px solid gray;
+  padding: 30px 10px;
+  background: #f3f3f3;
+}
